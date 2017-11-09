@@ -4,6 +4,7 @@ CD /D %~dp0
 SET platform=win_32
 if defined ProgramFiles(x86) (
 	SET platform=win_64
+	SET platform=win_32
 )
 
 if defined TARGET (
